@@ -1,7 +1,7 @@
 # Dual-Numbers
 Matlab Implementation of the Dual Numbers
 Derived from  the Work of Jeff Fike, Aerospace Design Lab, Stanford University
-Last modified:  January 24, 2014
+Last modified:  July 1, 2017
 
 The dualnumber MATLAB class implements dual numbers and is designed to compute exact first derivatives. 
  This functions implemented in this class include basic mathematical functions.
