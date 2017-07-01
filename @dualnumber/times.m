@@ -78,7 +78,7 @@ elseif (nrp == nrq) && (ncp == ncq)
                     r(i,j) = dualnumber(p.real*q.real,p.real*q.eps + p.eps*q.real);
                 end
             end
-        elseif isa(Q,'numeric')
+        elseif (isa(Q,'numeric')||isa(Q,'logical'))
             for i=1:nrp
                 for j=1:ncp
                     p = P(i,j);
